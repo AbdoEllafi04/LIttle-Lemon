@@ -37,7 +37,7 @@ struct Menu: View {
                                 .frame(maxHeight: 180)
                         }
                     }
-                    TextField("Search menu", text: $searchText)
+                    TextField("Search...", text: $searchText)
                         .textFieldStyle(.roundedBorder)
                 }
                 .padding()
@@ -45,7 +45,6 @@ struct Menu: View {
                 
                 Text("ORDER FOR DELIVERY!")
                     .font(.sectionTitle())
-                    .foregroundColor(.highlightColor2)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.top)
                     .padding(.leading)

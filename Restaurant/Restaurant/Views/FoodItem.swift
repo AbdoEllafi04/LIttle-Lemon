@@ -17,7 +17,6 @@ struct FoodItem: View {
                 Text(dish.title ?? "")
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .font(.sectionCategories())
-                    .foregroundColor(.black)
                 Spacer(minLength: 10)
                 Text(dish.descriptions ?? "")
                     .frame(maxWidth: .infinity, alignment: .leading)
